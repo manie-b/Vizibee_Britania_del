@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.mapolbs.vizibeebritannia.Activity.LoginScreen">
+
+
+
+
+
+
+
+
+ <EditText
+     android:id="@+id/edt_username"
+     android:layout_width="match_parent"
+     android:layout_height="45dp"
+     android:background="@drawable/username_textbox"
+     android:layout_below="@+id/textView8"
+     android:singleLine="true"
+     android:layout_marginTop="70dp"
+     android:layout_marginLeft="40dp"
+     android:layout_marginRight="40dp"
+     android:textSize="@dimen/visitdetail_answer_textsize"
+     android:textStyle="bold"
+     android:textColorHint="#4E4E4E"
+     android:textColor="#4E4E4E"
+     android:hint="Enter Username"
+     android:gravity="center"
+     android:layout_centerHorizontal="true" />
+
+ <EditText
+     android:id="@+id/edt_password"
+     android:layout_width="match_parent"
+     android:layout_height="45dp"
+     android:textSize="@dimen/visitdetail_answer_textsize"
+     android:hint="Enter Password"
+     android:textColorHint="#4E4E4E"
+     android:textColor="#4E4E4E"
+     android:gravity="center"
+     android:singleLine="true"
+     android:textStyle="bold"
+     android:inputType="textPassword"
+     android:background="@drawable/password_textbox"
+     android:layout_below="@+id/edt_username"
+     android:layout_marginTop="3dp"
+     android:layout_marginLeft="40dp"
+     android:layout_marginRight="40dp"
+     android:imeOptions="actionDone"
+     android:layout_centerHorizontal="true" />
+
+ <Button
+     android:id="@+id/btn_submit"
+     android:layout_width="120dp"
+     android:layout_height="40dp"
+     android:textAllCaps="false"
+     android:textColor="#ffffff"
+     android:textSize="@dimen/login_textsize"
+     android:textStyle="bold"
+     android:text="Login"
+     android:stateListAnimator="@drawable/state_list_animator_z"
+     android:layout_marginTop="@dimen/login_button_margintop"
+     android:layout_marginLeft="70dp"
+     android:layout_marginRight="70dp"
+     android:background="@drawable/login_button"
+     android:layout_below="@+id/edt_password"
+     android:layout_centerHorizontal="true" />
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Powered by Mapol Group"
+     android:id="@+id/textView7"
+     android:layout_alignParentBottom="true"
+     android:layout_centerHorizontal="true"
+     android:textStyle="bold"
+     android:textSize="@dimen/login_textsize"
+     android:layout_marginBottom="10dp"
+     android:textColor="@color/login_gray"
+     />
+
+ <ImageView
+     android:layout_width="match_parent"
+     android:layout_height="130dp"
+     android:id="@+id/imageView6"
+     android:layout_marginTop="50dp"
+     android:layout_marginLeft="0dp"
+     android:layout_marginRight="0dp"
+     android:layout_alignParentTop="true"
+     android:background="@drawable/login_logo" />
+
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="An AndMarketing Initiative"
+     android:id="@+id/textView8"
+     android:textStyle="bold"
+     android:textSize="@dimen/login_textsize"
+     android:textColor="#4895C1"
+     android:layout_below="@+id/imageView6"
+     android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

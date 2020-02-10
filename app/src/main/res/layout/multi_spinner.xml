@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView9"
+        android:layout_weight="8"
+        android:padding="7dp"
+        android:src="@drawable/multiselect"
+        android:background="@drawable/orange_rorund_bg"
+        android:layout_gravity="center_vertical" />
+
+<RelativeLayout
+    android:id="@+id/spinnerlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="@drawable/spinner_bg">
+
+    <TextView
+        android:id="@+id/SelectBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textColor="#000"
+        android:paddingLeft="@dimen/survey_multidropdown_paddingLeft"
+        android:layout_marginLeft="@dimen/survey_multidropdown_marginleft"
+        android:layout_marginTop="@dimen/survey_multidropdown_margintop"
+        android:layout_marginBottom="@dimen/survey_multidropdown_marginbottom"
+        android:textSize="@dimen/visitdetail_answer_textsize"
+        android:text="@string/select_string" />
+    <TextView
+        android:id="@+id/txtid"
+        android:layout_width="0.1dp"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textColor="#000"
+        android:textSize="22dp"
+        android:visibility="invisible"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtdeptid"
+        android:layout_width="0.1dp"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textColor="#000"
+        android:textSize="22dp"
+        android:visibility="invisible"
+        android:text="" />
+    <TextView
+        android:id="@+id/txtselectcount"
+        android:layout_width="0.1dp"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textColor="#000"
+        android:textSize="22dp"
+        android:visibility="invisible"
+        android:text="0" />
+
+    <TextView
+        android:id="@+id/txtothers"
+        android:layout_width="0.1dp"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textColor="#000"
+        android:textSize="22dp"
+        android:visibility="invisible"
+        android:text="0" />
+
+    <!--   <Button android:id="@+id/create"
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:layout_marginRight="8dp"
+           android:layout_marginLeft="8dp"
+           android:layout_centerVertical="true"
+           android:layout_alignParentRight="true"
+           android:background="@drawable/drop"/>-->
+</RelativeLayout>
+
+
+
+
+</LinearLayout>
+
+
+
+ 

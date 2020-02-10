@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "354378856500",
+    "firebase_url": "https://vizibee-kat.firebaseio.com",
+    "project_id": "vizibee-kat",
+    "storage_bucket": "vizibee-kat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354378856500:android:e414fecf459cde5f",
+        "android_client_info": {
+          "package_name": "com.mapolbs.vizibeebritannia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354378856500-l90am2kc4p0q2tgb4bc9rkg74nvc56mr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mapolbs.vizibeebritannia",
+            "certificate_hash": "ff3d7dd13eb1d6f9d6f526341af76f9291973aa7"
+          }
+        },
+        {
+          "client_id": "354378856500-oebl23oo2v37k8jjeitnsb3fbbp3b65l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB44nQwHpb7o5fg0T9L9GdozL2LLC1_c4A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354378856500-oebl23oo2v37k8jjeitnsb3fbbp3b65l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

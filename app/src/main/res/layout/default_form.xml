@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#EB1F2A">
+
+
+
+
+        <TextView
+            android:id="@+id/txt_visitdetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Retailer Form"
+            android:textSize="@dimen/header_textsize"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true" />
+
+<!--        <ImageView
+            android:layout_width="47dp"
+            android:layout_height="35dp"
+            android:id="@+id/imageView"
+            android:background="@drawable/vizilogo"
+            android:layout_marginEnd="5dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true" />-->
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:id="@+id/imginfo"
+            android:background="@drawable/info"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true" />
+        <ImageView
+            android:layout_width="47dp"
+            android:layout_height="35dp"
+            android:id="@+id/img_notifcation"
+            android:src="@drawable/notification"
+            android:layout_marginEnd="0dp"
+            android:padding="5dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            />
+
+        <TextView
+            android:id="@+id/txtnotifications_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center_horizontal"
+            android:background="@drawable/notification_round"
+            android:gravity="center"
+            android:paddingLeft="3dp"
+            android:paddingTop="1dp"
+            android:paddingRight="3dp"
+            android:paddingBottom="1dp"
+            android:text="1"
+            android:textColor="@color/notif_txt_count"
+            android:textSize="12sp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentEnd="true"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginTop="-2dp"
+        android:focusableInTouchMode="true">
+
+        <LinearLayout
+            android:id="@+id/relativelayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/toolbar"
+            android:orientation="vertical"
+            tools:context="com.mapolbs.vizibeebritannia.Activity.DefaultForm">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="#f4f4f4"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imgprojectlogo"
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:background="@drawable/logo_only" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#f4f4f4"
+                android:gravity="center">
+
+
+                <TextView
+                    android:id="@+id/txtprojectname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Britannia KAT Merchandesing"
+                    android:textSize="@dimen/login_textsize"
+                    android:textStyle="bold" />
+            </TableRow>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <!--<LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="107dp"
+        android:layout_alignTop="@+id/scroll"
+        android:layout_alignEnd="@+id/scroll"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="576dp"
+        android:layout_marginEnd="275dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/upload_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="10dp"
+                android:layout_weight="1"
+                android:background="@null"
+                android:text="Upload OFfline Data" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>-->
+
+    <RelativeLayout
+        android:id="@+id/lilayout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="#EBEFF2"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical|right"
+        android:layout_centerHorizontal="true" >
+
+        <Button
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/header_textsize"
+            android:textStyle="bold"
+            android:textColor="#3C8DBC"
+            android:id="@+id/btnnext"
+            android:background="@drawable/next"
+            android:layout_marginRight="5dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" />
+
+
+    </RelativeLayout>
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/imglogout"
+        android:padding="10dp"
+        android:src="@drawable/logout"
+        android:background="@drawable/circle_footer"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="0dp" />
+</RelativeLayout>

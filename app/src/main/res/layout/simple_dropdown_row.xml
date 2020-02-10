@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8D8D8">
+
+
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/visitdetail_answer_textsize"
+        android:textColor="#212121"
+       android:layout_marginTop="@dimen/survey_dropdown_margintop"
+        android:layout_marginLeft="@dimen/survey_dropdown_marginLeft"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:text="text"/>
+
+    <TextView
+        android:id="@+id/txt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="text"/>
+
+    <TextView
+        android:id="@+id/txt_queid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="text"/>
+
+    <TextView
+        android:id="@+id/txt_formid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="text"/>
+
+    <TextView
+        android:id="@+id/txt_childid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="text"/>
+
+
+</LinearLayout>

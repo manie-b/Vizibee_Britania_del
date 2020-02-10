@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/btn_yes"
+        android:layout_width="@dimen/surveyform_qmyn_width"
+        android:layout_height="@dimen/surveyform_qmyn_height"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/yes_normal_selector"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_toStartOf="@+id/btn_no" />
+
+    <Button
+        android:id="@+id/btn_no"
+        android:layout_width="@dimen/surveyform_qmyn_width"
+        android:layout_height="@dimen/surveyform_qmyn_height"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/no_normal_selector"
+        android:layout_centerVertical="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:id="@+id/txttitle"
+        android:textSize="@dimen/visitdetail_textsize"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="*"
+        android:textColor="#D50000"
+        android:textSize="@dimen/visitdetail_textsize"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/txtmandatory"
+        android:layout_alignTop="@+id/btn_yes"
+        android:layout_toEndOf="@+id/txttitle" />
+
+    <TextView
+        android:layout_width="0.1dp"
+        android:layout_height="0.1dp"
+        android:text="New Text"
+        android:id="@+id/txtyesformid"
+        android:layout_alignTop="@+id/txtmandatory"
+        android:layout_toStartOf="@+id/btn_yes" />
+
+    <TextView
+        android:layout_width="0.1dp"
+        android:layout_height="0.1dp"
+        android:text="New Text"
+        android:id="@+id/txtnoformid"
+        android:layout_alignTop="@+id/txtmandatory"
+        android:layout_alignEnd="@+id/txtmandatory" />
+
+
+</RelativeLayout>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/single_gridrow_line">
+
+    <TextView
+        android:id="@+id/txtquestionid"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:hint="Machine Name"
+        android:layout_weight="0"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:visibility="invisible"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+    <TextView
+        android:id="@+id/txtquestion"
+        android:layout_width="0sp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.5"
+        android:gravity="center"
+        android:hint="Machine Name"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp" />
+
+
+
+    <TextView
+        android:layout_width="0sp"
+        android:layout_height="fill_parent"
+        android:layout_weight="0.005"
+        android:ems="1"
+        android:background="#BDBDBD" >
+
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/lilayout"
+        android:columnCount="2"
+        android:layout_width="0sp"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="0.67">
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="0sp"
+        android:layout_height="fill_parent"
+        android:ems="1"
+        android:id="@+id/txtfilter1"
+        android:layout_weight="0.00001"
+        android:background="#BDBDBD" />
+
+    <TextView
+        android:layout_width="0sp"
+        android:layout_height="fill_parent"
+        android:ems="1"
+        android:id="@+id/txtfilter2"
+        android:layout_weight="0.00001"
+        android:background="#BDBDBD" >
+
+    </TextView>
+
+</LinearLayout>

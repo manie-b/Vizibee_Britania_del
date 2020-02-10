@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RadioButton
+        android:id="@+id/btn_yes"
+        android:layout_width="@dimen/surveyform_qmyn_width"
+        android:layout_height="@dimen/surveyform_qmyn_height"
+        android:layout_marginLeft="7dp"
+        android:drawableLeft="@drawable/radio_unselect"
+        android:text="Others"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toStartOf="@+id/btn_no" />
+
+
+
+</RelativeLayout>

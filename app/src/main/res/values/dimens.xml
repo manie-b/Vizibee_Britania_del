@@ -1,0 +1,416 @@
+<resources>
+    <item name="radiobuttonscalex" format="float" type="dimen">0.7</item>
+    <item name="radiobuttonscaley" format="float" type="dimen">0.7</item>
+
+    <dimen name="confirmyesrno_textsize">11sp</dimen>
+
+    <dimen name="confirmbtndialog_width">200dp</dimen>
+    <dimen name="confirmbtndialog_height">130dp</dimen>
+
+    <dimen name="marginleft">20dp</dimen>
+    <dimen name="marginright">20dp</dimen>
+
+    <dimen name="controlmarginleft">10dp</dimen>
+    <dimen name="controlmarginright">10dp</dimen>
+
+    <dimen name="surveyform_qmgc_marginleft1">20dp</dimen>
+    <dimen name="surveyform_qmgc_marginright1">20dp</dimen>
+
+    <dimen name="surveyform_qmds_paddingleft">-40dp</dimen>
+    <dimen name="surveyform_qmds_paddingtop">5dp</dimen>
+
+    <dimen name="default_dropdown_marginLeft">5dp</dimen>
+    <dimen name="default_dropdown_margintop">5dp</dimen>
+
+    <dimen name="survey_dropdown_marginLeft">5dp</dimen>
+    <dimen name="survey_dropdown_margintop">7dp</dimen>
+
+    <dimen name="survey_multidropdown_paddingtop">5dp</dimen>
+    <dimen name="survey_multidropdown_paddingLeft">5dp</dimen>
+
+    <dimen name="survey_multidropdown_marginleft">8dp</dimen>
+    <dimen name="survey_multidropdown_margintop">8dp</dimen>
+    <dimen name="survey_multidropdown_marginbottom">8dp</dimen>
+
+
+    <dimen name="Style_padding">5dp</dimen>
+
+
+    <dimen name="surveyform_qmgt_btn_width">150dp</dimen>
+    <dimen name="surveyform_qmgt_btn_height">50dp</dimen>
+
+    <dimen name="surveyform_qmgt_imgmargintop">20dp</dimen>
+    <dimen name="surveyform_qmgt_imgmarginbottom">10dp</dimen>
+
+    <dimen name="surveyform_qmgt_btnmargintop">10dp</dimen>
+    <dimen name="surveyform_qmgt_btnmarginbottom">15dp</dimen>
+
+    <dimen name="surveyform_qmgt_btntextsize">4sp</dimen>
+
+    <dimen name="logout_btn_margintop">10dp</dimen>
+    <dimen name="logout_btn_marginright">5dp</dimen>
+    <dimen name="logout_btn_height">40dp</dimen>
+    <dimen name="logout_btn_width">40dp</dimen>
+
+    <dimen name="logo_img_margintop">10dp</dimen>
+    <dimen name="logo_img_marginleft">5dp</dimen>
+    <dimen name="logo_img_height">40dp</dimen>
+    <dimen name="logo_img_width">40dp</dimen>
+
+    <dimen name="gridque_paddingtop">8dp</dimen>
+    <dimen name="gridque_paddingbottom">8dp</dimen>
+
+    <dimen name="gridque_headerheight">50dp</dimen>
+
+
+
+
+
+    <!--Commom-->
+    <dimen name="header_height">50dp</dimen>
+    <dimen name="title_height">25dp</dimen>
+    <dimen name="title_margintop">10dp</dimen>
+    <dimen name="title_marginbottom">5dp</dimen>
+    <dimen name="title_marginleft">15dp</dimen>
+    <dimen name="header_textsize">16sp</dimen>
+    <dimen name="title_textsize">8sp</dimen>
+    <dimen name="title_paddingleft">10dp</dimen>
+    <dimen name="textsize">8sp</dimen>
+
+    <dimen name="login_button_margintop">50dp</dimen>
+    <dimen name="login_button_height">40dp</dimen>
+
+
+    <dimen name="dropdown_textsize">8sp</dimen>
+
+    <dimen name="simple_dropdown_textsize">8sp</dimen>
+
+    <dimen name="simple_multidropdown_textsize">8sp</dimen>
+
+    <dimen name="default_dropdown_textsize">12sp</dimen>
+
+    <!--Splash-->
+    <dimen name="splash_textsize">28sp</dimen>
+
+    <!--Login-->
+    <dimen name="login_height">45dp</dimen>
+    <dimen name="login_textsize">15sp</dimen>
+    <dimen name="login_heading_margingtop">175dp</dimen>
+    <dimen name="login_heading_textsize">28sp</dimen>
+    <dimen name="login_margintop">5dp</dimen>
+    <dimen name="login_margingleft">25dp</dimen>
+    <dimen name="login_marginright">25dp</dimen>
+
+
+
+    <!--Default Form-->
+    <dimen name="defaultform_title_height">30dp</dimen>
+    <dimen name="defaultform_qmdt_height">40dp</dimen>
+    <dimen name="defaultform_qmdt_marginleft">10dp</dimen>
+    <dimen name="defaultform_qmdt_marginright">10dp</dimen>
+    <dimen name="defaultform_qmdt_margintop">10dp</dimen>
+    <dimen name="defaultform_qmdt_paddingleft">-40dp</dimen>
+    <dimen name="defaultform_qmdt_paddingtop">5dp</dimen>
+
+    <dimen name="defaultform_qmdts_height">40dp</dimen>
+    <dimen name="defaultform_qmdts_marginleft">10dp</dimen>
+    <dimen name="defaultform_qmdts_marginright">10dp</dimen>
+    <dimen name="defaultform_qmdts_margintop">10dp</dimen>
+    <dimen name="defaultform_qmdts_paddingleft">7dp</dimen>
+    <dimen name="defaultform_qmdts_paddingtop">3dp</dimen>
+    <dimen name="defaultform_empty_height">25dp</dimen>
+
+    <dimen name="defaultform_submit_height">45dp</dimen>
+    <dimen name="defaultform_submit_width">135dp</dimen>
+    <dimen name="defaultform_submit_marginleft">8dp</dimen>
+    <dimen name="defaultform_submit_marginright">10dp</dimen>
+    <dimen name="defaultform_submit_textsize">5sp</dimen>
+    <dimen name="defaultform_autocomplete_textsize">7sp</dimen>
+
+    <!--Visit Details-->
+    <dimen name="visitdetail_textsize">15sp</dimen>
+
+    <dimen name="visitdetail_answer_textsize">15sp</dimen>
+
+    <dimen name="visitdetail_toogle_width">60dp</dimen>
+    <dimen name="visitdetail_toogle_height">20dp</dimen>
+    <dimen name="visitdetail_toogle_marginright">40dp</dimen>
+
+    <dimen name="visitdetail_spinner_height">45dp</dimen>
+
+    <dimen name="visitdetail_marginright">20dp</dimen>
+    <dimen name="visitdetail_marginleft">20dp</dimen>
+    <dimen name="visitdetail_margintop">10dp</dimen>
+
+    <dimen name="visitdetail_editext_height">100dp</dimen>
+    <dimen name="visitdetail_editext_padding">10dp</dimen>
+
+    <dimen name="visitdetail_next_width">80dp</dimen>
+    <dimen name="visitdetail_next_height">35dp</dimen>
+
+    <dimen name="visitdetail_title_texts1ze">18sp</dimen>
+
+    <!--Survey Form-->
+
+    <dimen name="surveyform_gridformtitle_paddingleft">10dp</dimen>
+    <dimen name="surveyform_gridformtitle_paddingright">10dp</dimen>
+    <dimen name="surveyform_gridformtitle_paddingtop">10dp</dimen>
+    <dimen name="surveyform_gridformtitle_paddingbottom">10dp</dimen>
+
+    <dimen name="surveyform_gridformtitletxtheader_paddingleft">5dp</dimen>
+    <dimen name="surveyform_gridformtitletxtheader_paddingright">5dp</dimen>
+    <dimen name="surveyform_gridformtitletxtheader_paddingtop">5dp</dimen>
+    <dimen name="surveyform_gridformtitletxtheader_paddingbottom">5dp</dimen>
+    <dimen name="surveyform_gridformtitletxtheader_textsize">6sp</dimen>
+
+    <dimen name="txtvisitdetailssize">10sp</dimen>
+
+    <dimen name="surveyform_qmdt_height">35dp</dimen>
+    <dimen name="surveyform_qmdt_marginleft">5dp</dimen>
+    <dimen name="surveyform_qmdt_marginright">5dp</dimen>
+
+    <dimen name="surveyform_empty_height">3dp</dimen>
+
+    <dimen name="surveyform_gridempty_height">5dp</dimen>
+
+    <dimen name="surveyform_dividerline_height">2dp</dimen>
+
+    <dimen name="surveyform_qmtr_height">40dp</dimen>
+    <dimen name="surveyform_qmtr_marginleft">10dp</dimen>
+    <dimen name="surveyform_qmtr_marginright">10dp</dimen>
+    <dimen name="surveyform_qmtr_textsize">8sp</dimen>
+    <dimen name="surveyform_qmtr_paddingtop">10dp</dimen>
+    <dimen name="surveyform_qmtr_paddingleft">10dp</dimen>
+    <dimen name="surveyform_qmtr_paddingright">10dp</dimen>
+    <dimen name="surveyform_qmtr_paddingbottom">10dp</dimen>
+
+    <dimen name="surveyform_qmte_height">40dp</dimen>
+    <dimen name="surveyform_qmte_marginleft">10dp</dimen>
+    <dimen name="surveyform_qmte_marginright">10dp</dimen>
+    <dimen name="surveyform_qmte_paddingtop">2dp</dimen>
+    <dimen name="surveyform_qmte_paddingleft">10dp</dimen>
+    <dimen name="surveyform_qmte_paddingright">2dp</dimen>
+    <dimen name="surveyform_qmte_paddingbottom">2dp</dimen>
+    <dimen name="surveyform_qmte_textsize">8sp</dimen>
+
+    <dimen name="surveyform_qmda_height">35dp</dimen>
+    <dimen name="surveyform_qmda_marginleft">5dp</dimen>
+    <dimen name="surveyform_qmda_marginright">5dp</dimen>
+    <dimen name="surveyform_qmda_paddingtop">2dp</dimen>
+    <dimen name="surveyform_qmda_paddingleft">10dp</dimen>
+    <dimen name="surveyform_qmda_paddingright">2dp</dimen>
+    <dimen name="surveyform_qmda_paddingbottom">2dp</dimen>
+    <dimen name="surveyform_qmda_textsize">6sp</dimen>
+
+
+    <dimen name="surveyform_qmti_height">35dp</dimen>
+    <dimen name="surveyform_qmti_marginleft">10dp</dimen>
+    <dimen name="surveyform_qmti_marginright">10dp</dimen>
+    <dimen name="surveyform_qmti_paddingtop">2dp</dimen>
+    <dimen name="surveyform_qmti_paddingleft">10dp</dimen>
+    <dimen name="surveyform_qmti_paddingright">2dp</dimen>
+    <dimen name="surveyform_qmti_paddingbottom">2dp</dimen>
+    <dimen name="surveyform_qmti_textsize">6sp</dimen>
+
+    <dimen name="surveyform_qmrb_marginleft">10dp</dimen>
+    <dimen name="surveyform_qmrb_marginright">10dp</dimen>
+    <dimen name="surveyform_qmrb_paddingtop">2dp</dimen>
+    <dimen name="surveyform_qmrb_paddingleft">10dp</dimen>
+    <dimen name="surveyform_qmrb_paddingright">2dp</dimen>
+    <dimen name="surveyform_qmrb_paddingbottom">2dp</dimen>
+    <dimen name="surveyform_qmrb_textsize">5sp</dimen>
+
+    <dimen name="surveyform_qmpi_height">180dp</dimen>
+    <dimen name="surveyform_qmpi_marginleft">10dp</dimen>
+    <dimen name="surveyform_qmpi_marginright">10dp</dimen>
+    <dimen name="surveyform_qmpi_pic_width">150dp</dimen>
+    <dimen name="surveyform_qmpi_pic_height">150dp</dimen>
+
+    <!--mani try delete image sizes 13-01-2020-->
+    <dimen name="surveyform_qmpi_deletepic_button_width">50dp</dimen>
+    <dimen name="surveyform_qmpi_deletepic_button_height">50dp</dimen>
+    <!--mani try delete image sizes 13-01-2020-->
+
+
+    <!--29-01-2020-->
+    <dimen name="survey_btn_height">60dip</dimen>
+    <dimen name="survey_btn_elevation">4dp</dimen>
+    <!--29-01-2020-->
+
+    <dimen name="surveyform_qmpi_pic_button_width">70dp</dimen>
+    <dimen name="surveyform_qmpi_pic_button_height">70dp</dimen>
+
+    <dimen name="surveyform_qmtn_height">40dp</dimen>
+    <dimen name="surveyform_qmtn_marginleft">10dp</dimen>
+    <dimen name="surveyform_qmtn_marginright">10dp</dimen>
+    <dimen name="surveyform_qmtn_paddingtop">2dp</dimen>
+    <dimen name="surveyform_qmtn_paddingleft">10dp</dimen>
+    <dimen name="surveyform_qmtn_paddingright">2dp</dimen>
+    <dimen name="surveyform_qmtn_paddingbottom">2dp</dimen>
+
+    <dimen name="surveyform_qmds_height">40dp</dimen>
+    <dimen name="surveyform_qmds_marginleft">10dp</dimen>
+    <dimen name="surveyform_qmds_marginright">10dp</dimen>
+
+
+
+    <dimen name="surveyform_qmdm_height">45dp</dimen>
+    <dimen name="surveyform_qmdm_marginleft">20dp</dimen>
+    <dimen name="surveyform_qmdm_marginright">20dp</dimen>
+
+    <dimen name="surveyform_qmls_height">65dp</dimen>
+    <dimen name="surveyform_qmls_marginleft">10dp</dimen>
+    <dimen name="surveyform_qmls_marginright">10dp</dimen>
+    <dimen name="surveyform_qmls_seekbar_width">150dp</dimen>
+    <dimen name="surveyform_qmls_seekbar_margintop">10dp</dimen>
+    <dimen name="surveyform_qmls_seekbar_marginleft">10dp</dimen>
+    <dimen name="surveyform_qmls_seekbar_marginright">2dp</dimen>
+    <dimen name="surveyform_qmls_seekbar_marginbottom">10dp</dimen>
+    <dimen name="surveyform_qmls_paramsmarginleft">5dp</dimen>
+    <dimen name="surveyform_qmls_paramsmarginright">5dp</dimen>
+
+    <dimen name="surveyform_qmls_seekbar_thumbheight">30dp</dimen>
+    <dimen name="surveyform_qmls_seekbar_thumbhwidth">30dp</dimen>
+
+    <dimen name="surveyform_qmls_width">140dp</dimen>
+    <dimen name="surveyform_qmls_fromwidth">70dp</dimen>
+    <dimen name="surveyform_qmls_towidth">70dp</dimen>
+
+    <dimen name="surveyform_qmbc_height">130dp</dimen>
+
+    <dimen name="surveyform_qmbc_marginleft">10dp</dimen>
+    <dimen name="surveyform_qmbc_marginright">10dp</dimen>
+    <dimen name="surveyform_qmbc_margintop">10dp</dimen>
+    <dimen name="surveyform_qmbc_img_width">70dp</dimen>
+    <dimen name="surveyform_qmbc_img_height">70dp</dimen>
+
+    <dimen name="surveyform_qmgt_marginleft">10dp</dimen>
+    <dimen name="surveyform_qmgt_marginright">10dp</dimen>
+    <dimen name="surveyform_qmgt_margintop">10dp</dimen>
+    <dimen name="surveyform_qmgt_marginbottom">10dp</dimen>
+    <dimen name="surveyform_qmgt_img_width">60dp</dimen>
+    <dimen name="surveyform_qmgt_img_height">60dp</dimen>
+
+    <dimen name="surveyform_qmgt_padingtop">10dp</dimen>
+    <dimen name="surveyform_qmgt_textsize">10sp</dimen>
+
+    <dimen name="surveyform_qmgc_marginleft">10dp</dimen>
+    <dimen name="surveyform_qmgc_marginright">10dp</dimen>
+
+    <dimen name="surveyform_qmgm_marginleft">10dp</dimen>
+    <dimen name="surveyform_qmgm_marginright">10dp</dimen>
+
+    <!--Gridformlayout Adapter-->
+    <dimen name="gridformlayout_empty__height">15dp</dimen>
+
+    <dimen name="gridformlayout_qmtr__height">35dp</dimen>
+    <dimen name="gridformlayout_qmtr_marginleft">5dp</dimen>
+    <dimen name="gridformlayout_qmtr_marginright">5dp</dimen>
+    <dimen name="gridformlayout_qmtr_textsize">8sp</dimen>
+
+    <dimen name="gridformlayout_qmte_height">40dp</dimen>
+    <dimen name="gridformlayout_qmte_marginleft">10dp</dimen>
+    <dimen name="gridformlayout_qmte_marginright">10dp</dimen>
+    <dimen name="gridformlayout_qmte_paddingtop">2dp</dimen>
+    <dimen name="gridformlayout_qmte_paddingleft">10dp</dimen>
+    <dimen name="gridformlayout_qmte_paddingright">2dp</dimen>
+    <dimen name="gridformlayout_qmte_paddingbottom">2dp</dimen>
+
+    <dimen name="gridformlayout_qmda_height">35dp</dimen>
+    <dimen name="gridformlayout_qmda_marginleft">10dp</dimen>
+    <dimen name="gridformlayout_qmda_marginright">10dp</dimen>
+    <dimen name="gridformlayout_qmda_paddingtop">2dp</dimen>
+    <dimen name="gridformlayout_qmda_paddingleft">10dp</dimen>
+    <dimen name="gridformlayout_qmda_paddingright">2dp</dimen>
+    <dimen name="gridformlayout_qmda_paddingbottom">2dp</dimen>
+    <dimen name="gridformlayout_qmda_textsize">6sp</dimen>
+
+    <dimen name="gridformlayout_qmti_height">35dp</dimen>
+    <dimen name="gridformlayout_qmdti_marginleft">10dp</dimen>
+    <dimen name="gridformlayout_qmti_marginright">10dp</dimen>
+    <dimen name="gridformlayout_qmti_paddingtop">2dp</dimen>
+    <dimen name="gridformlayout_qmti_paddingleft">10dp</dimen>
+    <dimen name="gridformlayout_qmti_paddingright">2dp</dimen>
+    <dimen name="gridformlayout_qmti_paddingbottom">2dp</dimen>
+    <dimen name="gridformlayout_qmti_textsize">6sp</dimen>
+
+    <dimen name="gridformlayout_qmrb_marginleft">10dp</dimen>
+    <dimen name="gridformlayout_qmrb_marginright">10dp</dimen>
+    <dimen name="gridformlayout_qmrb_paddingtop">2dp</dimen>
+    <dimen name="gridformlayout_qmrb_paddingleft">10dp</dimen>
+    <dimen name="gridformlayout_qmrb_paddingright">2dp</dimen>
+    <dimen name="gridformlayout_qmrb_paddingbottom">2dp</dimen>
+    <dimen name="gridformlayout_qmrb_textsize">6sp</dimen>
+
+    <dimen name="surveyform_qmrb_marginleft1">15dp</dimen>
+    <dimen name="surveyform_qmrb_marginright1">15dp</dimen>
+
+    <dimen name="gridformlayout_qmtn_height">35dp</dimen>
+    <dimen name="gridformlayout_qmtn_marginleft">5dp</dimen>
+    <dimen name="gridformlayout_qmtn_marginright">5dp</dimen>
+    <dimen name="gridformlayout_qmtn_paddingtop">2dp</dimen>
+    <dimen name="gridformlayout_qmtn_paddingleft">10dp</dimen>
+    <dimen name="gridformlayout_qmtn_paddingright">2dp</dimen>
+    <dimen name="gridformlayout_qmtn_paddingbottom">2dp</dimen>
+
+    <dimen name="gridformlayout_qmds_height">35dp</dimen>
+    <dimen name="gridformlayout_qmds_marginleft">5dp</dimen>
+    <dimen name="gridformlayout_qmds_marginright">5dp</dimen>
+
+    <dimen name="gridformlayout_qmdm_height">35dp</dimen>
+    <dimen name="gridformlayout_qmdm_marginleft">5dp</dimen>
+    <dimen name="gridformlayout_qmdm_marginright">5dp</dimen>
+
+    <dimen name="gridformlayout_qmls_height">35dp</dimen>
+    <dimen name="gridformlayout_qmls_marginleft">10dp</dimen>
+    <dimen name="gridformlayout_qmls_marginright">10dp</dimen>
+    <dimen name="gridformlayout_qmls_seekbar_width">80dp</dimen>
+
+    <dimen name="gridformlayout_qmgc_marginleft">5dp</dimen>
+    <dimen name="gridformlayout_qmgc_marginright">5dp</dimen>
+
+    <dimen name="gridformlayout_qmgm_marginleft">5dp</dimen>
+    <dimen name="gridformlayout_qmgm_marginright">5dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="defaultform_qmyn_height">45dp</dimen>
+    <dimen name="surveyform_qmyn_marginleft">10dp</dimen>
+    <dimen name="surveyform_qmyn_marginright">10dp</dimen>
+    <dimen name="surveyform_qmyn_paddingleft">2dp</dimen>
+    <dimen name="surveyform_qmyn_paddingright">5dp</dimen>
+    <dimen name="surveyform_qmyn_paddingtop">10dp</dimen>
+    <dimen name="surveyform_qmyn_paddingbottom">10dp</dimen>
+    <dimen name="surveyform_qmyn_textsize">8sp</dimen>
+
+
+    <dimen name="surveyform_qmyn_height">35dp</dimen>
+    <dimen name="surveyform_qmyn_width">35dp</dimen>
+    <dimen name="surveyform_qmyn_toggleparams_marginleft">12dp</dimen>
+    <dimen name="surveyform_qmyn_toggleparams_marginright">5dp</dimen>
+
+    <dimen name="surveyform_qmyn_textwidth">160dp</dimen>
+
+    <dimen name="surveyform_grid_height">45dp</dimen>
+
+    <dimen name="surveyform_qmbc_paddingbottom">8dp</dimen>
+
+    <dimen name="surveyform_remarks_height">70dp</dimen>
+
+
+    <!--Audio Record-->
+    <dimen name="surveyform_qmar_marginleft">15dp</dimen>
+    <dimen name="surveyform_qmar_marginright">15dp</dimen>
+    <dimen name="surveyform_qmar_margintop">5dp</dimen>
+    <dimen name="surveyform_qmar_marginbottom">25dp</dimen>
+
+
+    <dimen name="surveyform_qmar_height">50dp</dimen>
+    <dimen name="surveyform_qmar_width">50dp</dimen>
+
+
+
+
+</resources>
+

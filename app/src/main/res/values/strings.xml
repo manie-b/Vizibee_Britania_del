@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Vizibee-KAT</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="select_string">Select an item</string>
+    <string name="root_folder">/Android/obb/com.mapolbs.vizibeebritannia</string>
+    <string name="vizibee_image_folder">vizibee_image</string>
+    <string name="radiobuttonid">12000</string>
+
+
+</resources>

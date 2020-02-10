@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/imageView9"
+        android:layout_weight="8"
+        android:padding="2dp"
+        android:src="@drawable/updownarrow"
+        android:background="@drawable/orange_rorund_bg"
+        android:layout_gravity="center_vertical" />
+
+    <Button
+        android:id="@+id/spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="left|center_vertical"
+        android:textStyle="normal"
+        android:background="@drawable/spinner_bg"
+
+        />
+
+
+
+
+</LinearLayout>

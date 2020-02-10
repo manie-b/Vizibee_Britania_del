@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="0.0001dp"
+    android:layout_height="0.0001dp"
+    android:id="@+id/rowtypelayout">
+
+        <TextView
+            android:layout_width="0.0001dp"
+            android:layout_height="0.0001dp"
+            android:id="@+id/txttablerowtype"
+            android:textStyle="bold"
+            android:textSize="@dimen/visitdetail_textsize"
+            android:text="Title Text for all type of question"/>
+
+</RelativeLayout>

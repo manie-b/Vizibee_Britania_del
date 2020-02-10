@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D8D8D8">
+
+
+
+    <TextView
+        android:id="@+id/txt_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/visitdetail_answer_textsize"
+        android:textColor="#000"
+        android:layout_marginLeft="@dimen/default_dropdown_marginLeft"
+        android:layout_marginTop="@dimen/default_dropdown_margintop"
+        android:paddingTop="10dp"
+        android:paddingBottom="7dp"
+        android:text="text"/>
+
+    <TextView
+        android:id="@+id/txt_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="text"/>
+
+    <TextView
+        android:id="@+id/txt_queid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:text="text"/>
+
+
+
+</LinearLayout>

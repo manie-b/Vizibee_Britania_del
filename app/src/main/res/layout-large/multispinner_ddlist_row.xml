@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout1"
+    android:layout_width="fill_parent"
+    android:gravity="center_vertical"
+    android:background="#F5F5F5"
+    android:layout_height="70dp" >
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_margin="12dp"
+        />
+
+    <TextView
+        android:id="@+id/SelectOption"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/visitdetail_answer_textsize"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/txtid"
+        android:layout_width="0.1dp"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textColor="#000"
+        android:textSize="22dp"
+        android:visibility="invisible"
+        android:text="" />
+
+    <TextView
+        android:id="@+id/txtdeptid"
+        android:layout_width="0.1dp"
+        android:layout_height="0.1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textColor="#000"
+        android:textSize="22dp"
+        android:visibility="invisible"
+        android:text="" />
+
+
+
+</LinearLayout>
